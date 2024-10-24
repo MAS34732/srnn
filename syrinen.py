@@ -111,9 +111,9 @@ ligne()
 sleep(2)
 
 while True:
-    rslt = random.randint(0,40)
+    rslt = random.randint(0,100)
     
-    if rslt <= 1:
+    if rslt >= 95:
         ligne()
         random_acssi()
         ligne()
