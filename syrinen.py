@@ -117,9 +117,9 @@ while True:
         ligne()
         random_acssi()
         ligne()
+        sleep(0.5)
     else: 
         phrase_je_taime = random.choice(je_taime_langues)
         compliment = random.choice(compliments)
         
         print(f"{phrase_je_taime}, {compliment}")
-    sleep(0.5)
