@@ -111,7 +111,7 @@ ligne()
 sleep(2)
 
 while True:
-    rslt = random.randint(0,20)
+    rslt = random.randint(0,40)
     
     if rslt <= 1:
         ligne()
