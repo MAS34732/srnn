@@ -113,7 +113,7 @@ sleep(2)
 while True:
     rslt = random.randint(0,100)
     
-    if rslt >= 95:
+    if rslt == 95:
         ligne()
         random_acssi()
         ligne()
@@ -123,4 +123,4 @@ while True:
         compliment = random.choice(compliments)
         
         print(f"{phrase_je_taime}, {compliment}")
-        sleep(0.1)
+        sleep(0.2)
