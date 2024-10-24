@@ -113,7 +113,7 @@ sleep(2)
 while True:
     rslt = random.randint(0,20)
     
-    if rslt <= 4:
+    if rslt <= 1:
         ligne()
         random_acssi()
         ligne()
